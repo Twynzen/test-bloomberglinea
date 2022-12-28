@@ -13,3 +13,5 @@
 
 <img src="src/assets/img/doc-img2.png" style="width:200px; height: 400px">
 
+# Llamado a la API
+* Para finalizar se llamo la API de rick y morty ya que tiene una buena variedad de imagenes y textos, se hizo uso de SRP donde un servicio controla las peticiones http y ya el componente usa estos servicios para actualización de datos.
