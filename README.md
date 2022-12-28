@@ -1,27 +1,15 @@
-# BlomberglineaTest
+# Maquetado
+* Para el maquetado se ha utilizado una estructura de contenedor principal con una serie de elementos hijos. En la versión desktop, el contenedor tiene una estructura en forma de flex con dos columnas y una fila, mientras que en la versión responsive se ha cambiado la estructura a una sola columna.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
+* Los elementos hijos se dividen en dos bloques de dos artículos y un bloque de un artículo. Cada uno de estos bloques tiene una clase específica que se utiliza para aplicar estilos a través de CSS.
 
-## Development server
+<img src="src/assets/img/doc-img1.png" style="width: 50%; height: 50%">
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+# Estilos
+* Para los estilos se ha utilizado una combinación de medidas en pixeles y unidades relativas como rem y em. Se han aplicado bordes y margenes a los elementos para poder visualizar de forma clara cada uno de ellos.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Además, se ha utilizado una regla de media query para aplicar estilos específicos en pantallas de tamaño móvil. En esta versión se ocultan algunos elementos y se cambia la disposición de otros para adaptarse mejor a la pantalla.
 
-## Build
+<img src="src/assets/img/doc-img2.png" style="width:200px; height: 400px">
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
