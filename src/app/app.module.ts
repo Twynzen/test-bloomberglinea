@@ -5,11 +5,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LifestyleComponent } from './sections/lifestyle/lifestyle.component';
+import { SportsComponent } from './sections/sports/sports.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LifestyleComponent
+    LifestyleComponent,
+    SportsComponent
   ],
   imports: [
     BrowserModule,

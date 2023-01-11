@@ -7,15 +7,17 @@
   .article-1 {
     width: 50%;
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid #000;
+    background: #fff;
   }
-
+    // cambiar pixeles por vh
   .border-article-1 {
     height: 93.5%;
     margin: 10px 20px 0 20px;
     border: 1px solid black;
-  }
 
+  }
+  // cambiar nombres articles-2-3 y 4-5
   .articles-2-3,
   .articles-4-5 {
     text-align: center;
@@ -23,13 +25,11 @@
     border: 1px solid black;
   }
 
-  .article-2,
-  .article-3,
-  .article-4,
-  .article-5 {
+  .article-2 {
     border: 1px solid black;
     margin: 0.875rem;
     height: 45%;
+    background: #fff;
   }
 
   .article-image {
@@ -38,7 +38,7 @@
     width: 100%;
   }
 
-  .ajust-image{
+  .ajust-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -49,20 +49,21 @@
     margin: 0;
   }
 
-  .publicity {
-    text-align: center;
-    border: 1px solid black;
-    height: 9.1rem;
-  }
+ .publicity {
+   display: flex;
+   align-content: center;
+   justify-content: center;
+ }
 
-  @media screen and (max-width: 300px) {
+
+
+  @media screen and (max-width: 600px) {
     .container {
-      display: flex;
       border: none;
       height: 85vh;
       flex-wrap: wrap;
     }
-
+    // cambiar nombres articles-2-3 y 4-5
     .article-1,
     .articles-2-3,
     .articles-4-5 {
@@ -71,9 +72,10 @@
     }
 
     .border-article-1 {
-      height: 100%;
-      width: 85%;
-      margin: 0 0 0 17px;
+      height: 93%;
+      margin: 2vh;
+      width: auto;
+      border: 1px solid black;
     }
 
     .article-2 {
@@ -93,9 +95,8 @@
       display: none;
     }
 
-    .publicity {
-      width: 85%;
-      height: 15vh;
-      margin: 10px 0 0 17px;
-    }
+
+
+
+
   }

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { randomCharacter } from 'src/app/interfaces/random-character-interface';
-import { ApiRequestServiceService } from './services/api-request-service.service';
+import { ApiRequestServiceService } from '../../services/api-request-service.service';
 
 @Component({
   selector: 'app-lifestyle',
