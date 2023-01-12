@@ -10,7 +10,7 @@ import { ApiRequestServiceService } from '../../services/api-request-service.ser
 export class LifestyleComponent implements OnInit {
 
   characterRandoms: randomCharacter[] = [];
-
+  changeMedia: boolean = false;
 
   constructor(
     private apiService: ApiRequestServiceService
@@ -44,5 +44,7 @@ export class LifestyleComponent implements OnInit {
 
     })
   }
+
+
 
 }

@@ -1,57 +1,20 @@
 
 <div class="container">
 
-  <div class="articles-2-3">
-    <div class="article-2">
-      <div class="article-image">
-        <img src="{{characterRandoms[0].image}}" class="ajust-image" [alt]="characterRandoms[0].name">
-      </div>
-      <div class="article-title">
-        <h2>{{characterRandoms[0].name}}</h2>
-      </div>
-    </div>
+  <div class="left-articles">
 
-    <div class="article-2">
-      <div class="article-image">
-        <img src="{{characterRandoms[1].image}}" class="ajust-image"  [alt]="characterRandoms[1].name">
-      </div>
+    <app-article class="second-article" [currentCharacter]="characterRandoms[1]"></app-article>
+    <app-article class="third-article"[currentCharacter]="characterRandoms[2]"></app-article>
 
-      <div class="article-title">
-        <h2>{{characterRandoms[1].name}}</h2>
-      </div>
-    </div>
+  </div>
+  <div class="principal-article">
+    <app-article [currentCharacter]="characterRandoms[0]" [article1]="true"></app-article>
   </div>
 
-  <div class="article-1">
-    <div class="border-article-1" >
-      <div class="article-image">
-        <img [src]="characterRandoms[2].image" class="ajust-image"  [alt]="characterRandoms[2].name">
-      </div>
-      <div class="article-title">
-        <h2>{{characterRandoms[2].name}}</h2>
-      </div>
-    </div>
-  </div>
 
-  <div class="articles-4-5">
-    <div class="article-2">
-      <div class="article-image">
-        <img src="{{characterRandoms[3].image}}" class="ajust-image"[alt]="characterRandoms[3].name">
-      </div>
-      <div class="article-title">
-        <h2>{{characterRandoms[3].name}}</h2>
-      </div>
-    </div>
-
-    <div class="article-2">
-      <div class="article-image">
-        <img src="{{characterRandoms[4].image}}" class="ajust-image" alt="Imagen">
-      </div>
-      <div class="article-title">
-        <h2>{{characterRandoms[4].name}}</h2>
-      </div>
-    </div>
-
+  <div class="rigth-articles">
+    <app-article [currentCharacter]="characterRandoms[3]"></app-article>
+    <app-article [currentCharacter]="characterRandoms[4]"></app-article>
   </div>
 
 </div>

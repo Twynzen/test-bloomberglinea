@@ -1,0 +1,11 @@
+<div [ngClass]="article1 ? 'principal-article' : 'article'">
+  <div [ngClass]="article1 ? 'border-principal-article' : 'border-principal'">
+    <div class="article-image">
+      <img [src]="currentCharacter.image" [ngClass]="article1 ? 'ajust-image-principal-article' : 'ajust-image'"
+        [alt]="currentCharacter.name">
+    </div>
+    <div [ngClass]="article1 ? 'article-title' : 'article-title-others'">
+      <h2>{{currentCharacter.name}}</h2>
+    </div>
+  </div>
+</div>
